@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and Credentials
+.env
+credentials.json
+token.json
+
+# IDEs and OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and Local Databases
+*.log
+chroma_db/
+
+# Local Admin Scripts
+
+
+#output
+outputs/
+blog_agent_flow.svg
