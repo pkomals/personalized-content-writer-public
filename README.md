@@ -1,12 +1,37 @@
-# AI-Powered Personalized Content Engine
+# AI-Powered Personalized Content Engine — Template Framework
+
+**⚠️ This is a TEMPLATE/FRAMEWORK, not a finished product.**
+
+Fork this repo and implement the agent templates with your own LLM provider (Claude, OpenAI, etc.) and vector DB (ChromaDB, Pinecone, etc).
 
 A production-grade multi-agent system that generates ghostwritten, SEO-ready blog content at scale—with style consistency, fact alignment, and self-improving feedback loops.
 
-**Built for a production fintech startup · Full implementation available for serious candidates**
+**What you get:**
+- ✅ Production-tested multi-agent architecture
+- ✅ 5 agent skeleton templates (writer, critic, topic, editor, SEO)
+- ✅ Complete implementation guide with best practices
+- ✅ System design patterns and real-world learnings
+- ❌ NO working LLM code (you implement)
+- ❌ NO proprietary prompts (you customize)
+
+**Full working implementation** (with real prompts, outputs, metrics) **available for serious candidates.**
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-proprietary-red)](#)
-[![Status](https://img.shields.io/badge/status-production-green)](#)
+[![License](https://img.shields.io/badge/license-MIT-green)](#)
+[![Status](https://img.shields.io/badge/status-template-orange)](#)
+[![Framework](https://img.shields.io/badge/type-framework-blue)](#)
+
+---
+
+## 📖 Quick Start for Implementers
+
+1. **Read the architecture overview** — understand the 5-agent pipeline
+2. **Review [templates/IMPLEMENTATION_GUIDE.md](templates/IMPLEMENTATION_GUIDE.md)** — step-by-step implementation
+3. **Start with `templates/utils/llm_template.py`** — implement LLM wrapper
+4. **Implement agents in order** — topic → writer → critic → editor
+5. **Connect your vector DB and LLM** — then run the pipeline
+
+See [Getting Started (For Implementers)](#getting-started-for-implementers) below.
 
 ---
 
